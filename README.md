@@ -4,9 +4,7 @@ Setting up..
 
 * Add the following aliases to your bash profile. You can customise the aliases to better suit your own needs, just remember to replace the ares where I have put 'yourUsername' and other things like it with your own. 
 ```shell
-alias did='function __didit() { idonethis.rb --post_done "$*"; unset -f __didit; }; __didit' 
-```
-```shell
+alias did='function __didit() { idonethis.rb --post_done "$*"; unset -f __didit; }; __didit'
 alias didcomment='idonethis.rb --comment_done'
 alias diduncomment='idonethis.rb --uncomment_done'
 alias didlike='idonethis.rb --like_done'
